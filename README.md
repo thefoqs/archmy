@@ -28,12 +28,12 @@ The Archmy script contains the following key functionalities:
 # How to Use the Script
 
 ## Prerequisites
-
 1. Ensure you have root/sudo privileges on your system, as many of the tasks require elevated permissions.
+2. You need to have Arch installed with the KDE-Plasma enviroment.
 
 ## Steps to Run the Script
-1. You need to have Arch installed with the KDE-Plasma enviroment.
-2. Download or Clone the Script: Download the script or clone the repository to your local machine.
+
+1. Download or Clone the Script: Download the script or clone the repository to your local machine.
 ```
 git clone https://github.com/thefoqs/archmy.git
 cd archmy

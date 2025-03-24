@@ -15,7 +15,7 @@ WIDTH=90
 CHOICE_HEIGHT=10
 
 # Titles and messages
-BACKTITLE="Archmy v1.0 - A Arch Post Install Setup Util for KDE Plasma Enviroment - By thefoqs"
+BACKTITLE="Archmy v1.0.1 - A Arch Post Install Setup Util for KDE Plasma Enviroment - By thefoqs"
 TITLE="Please Make a Selection"
 MENU="Please Choose one of the following options:"
 
@@ -43,8 +43,8 @@ OPTIONS=(
     4 "Enable Flathub - Enables FlatHub & installs packages located in flatpak-packages.txt"
     5 "Install Software - Installs software located in pacman-packages.txt"
     6 "Install Oh-My-ZSH - Installs Oh-My-ZSH & Starship Prompt"
-    7 "Install Timeshift - Installs Timeshift with grub menu support"
-    8 "Install Nvidia Open Drivers - Turing+ only"
+    7 "Install Timeshift - Installs Timeshift with grub snapshots menu support"
+    8 "Install Nvidia Drivers - Install Nvidia Open Drivers (Turing+ only)"
     9 "Install Lazyvim - Neovim framework for lazy people"
     10 "Customise - Configures system settings"
     11 "Quit"
@@ -240,8 +240,8 @@ while true; do
                 CUSTOM_CHOICE=$(dialog --clear --backtitle "Arch System Configuration" \
                     --title "Customization Menu" \
                     --menu "Choose an option:" 15 50 8 \
-                    1 "Set Hostname - Changes system hostname" \
-                    2 "Setup Mullvad-DNS - Setup Mullvad-DNS over HTTPS as default DNS resolver" \
+                    1 "Set Hostname" \
+                    2 "Setup Mullvad-DNS" \
                     3 "Exit" \
                     3>&1 1>&2 2>&3)
                 
