@@ -6,9 +6,9 @@
   <img width="300" height="300" src="./images/logo.png">
 </p>
 
-<h1 align="center">
+<h3 align="center">
   This scripts was adapted for Arch Linux from <a href="https://github.com/smittix/fedorable.git">Fedorable</a> By <a href="https://github.com/smittix">Smittix</a>
-</h1>
+</h3>
 
 # Introduction
 The Archmy script is a powerful post-install setup utility for Arch-based systems. It automates several system configuration tasks, from enabling Chaotic-AUR repository, Firmware Update, Speed Up Pacman, Enable Flatpak Support, Install Some Softwares, Oh-My-Zsh with Starship Prompt, Install Timeshift with Grub Support & Install Nvidia Open Drivers, ensuring your system is optimized and ready to use.
