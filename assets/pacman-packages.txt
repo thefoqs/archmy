@@ -1,0 +1,9 @@
+yay
+brave-bin
+fastfetch
+alacritty
+qbittorrent
+proton-vpn-gtk-app
+jamesdsp
+btop
+tree

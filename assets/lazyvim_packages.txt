@@ -1,0 +1,7 @@
+neovim
+lua51
+luarocks
+ripgrep
+fd
+fzf
+lazygit
